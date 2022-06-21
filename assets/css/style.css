@@ -273,6 +273,13 @@ hr {
         padding: 0;
     }
 
+    #times > div {
+        width: 100%;
+        clear: both; 
+        height: 150px; 
+        padding: 0; 
+    }
+
     hr {
         display: none;
     }
@@ -280,7 +287,7 @@ hr {
 
 /* for medium screen sizes from 950px wide & below */
 @media screen and max (max-width: 950px) {
-    got clear: left; 
+    clear: left; 
     float: left;
     margin-left: 30px;
     margin-bottom: 20px;
